@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">ranchRatings_1.1</string>
     <string name="title_activity_maps">Map</string>
+    <string name="topHeading">Ranch Ratings</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="bottomHeading">Featured Ranch</string>
 </resources>
