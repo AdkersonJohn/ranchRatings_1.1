@@ -56,7 +56,18 @@
         <com.google.android.gms.maps.MapView
             android:id="@+id/mapView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:addStatesFromChildren="false"
+            android:apiKey="AIzaSyBPeW5QzkAZ-PA6BGGH4Xa7BmVmBYPaJmE"
+            android:clickable="true"
+            android:duplicateParentState="false" />
+
+        <fragment
+            android:id="@+id/map2"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapsActivity" />
     </FrameLayout>
 
     <LinearLayout
