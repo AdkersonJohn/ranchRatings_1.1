@@ -68,6 +68,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:context=".MapsActivity" />
+
+        <ImageButton
+            android:id="@+id/btnSubmit"
+            android:layout_width="89dp"
+            android:layout_height="88dp"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
     </FrameLayout>
 
     <LinearLayout
