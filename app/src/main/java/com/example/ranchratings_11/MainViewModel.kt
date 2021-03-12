@@ -10,16 +10,11 @@ import com.google.firebase.firestore.FirebaseFirestoreSettings
 import com.google.firebase.ktx.Firebase
 
 class MainViewModel : ViewModel(){
-    private var institutions: MutableLiveData<ArrayList<Institution>> = MutableLiveData<ArrayList<Institution>>()
-
     private lateinit var firestore : FirebaseFirestore
-
     init{
-
         firestore = FirebaseFirestore.getInstance()
         firestore.firestoreSettings = FirebaseFirestoreSettings.Builder().build()
     }
-
     fun save(review: Review){
         firestore.collection("reviews")
             .document()
@@ -31,5 +26,4 @@ class MainViewModel : ViewModel(){
                 Log.d("Firebase", "Save Failed")
             }
     }
-
 }

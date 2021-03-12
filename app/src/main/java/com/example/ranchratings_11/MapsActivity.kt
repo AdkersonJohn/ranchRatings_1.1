@@ -17,6 +17,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
+    private lateinit var viewModel: MainViewModel
     private lateinit var mMap: GoogleMap
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,12 +42,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     institutionID
                     //TODO save this object
 
-                    var reviewText = findViewById<TextView>(R.id.txtReview)
-                    reviewText.setText(stars.toString())
                 }
-
+                viewModel.save(review)
+                setContentView(R.layout.rating_fragment)
             }
+
          }
+
+
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
