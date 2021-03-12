@@ -5,4 +5,6 @@
     <string name="search">Search</string>
     <string name="profile">Profile</string>
     <string name="bottomHeading">Featured Ranch</string>
+    <string name="search_content_des">Clipart of a magnifying glass</string>
+    <string name="profile_content_des">Clip art of a person</string>
 </resources>
