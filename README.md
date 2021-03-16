@@ -1,7 +1,7 @@
 # ranchRatings_1.1
 Fixing unrelated histories issue
 # ranchRatings_1.0
-fixed corrupt grade issues
+fixed corrupt gradle issues
 
 # Ranch Ratings
 
