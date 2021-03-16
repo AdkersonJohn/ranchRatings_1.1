@@ -1,5 +1,7 @@
 package com.example.ranchratings_11
 
+import com.example.ranchratings_11.dto.Institution
+import com.example.ranchratings_11.dto.User
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -11,7 +13,17 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun userDTO(){
+        var user = User(id = 1, username = "JohnBoi48", password = "123456", image = "image.com")
+        assertTrue(user.id == 1)
+        assertTrue(user.username == "JohnBoi48")
+        assertTrue(user.password == "123456")
+    }
+    @Test
+    fun institutionDTO(){
+        var institution = Institution(id = 4, name = "Macs", phoneNumber = "513-231-3213", image = "image.com", rating = 4.5, isFavorite = true, address = "666 Happy Lane")
+        assertTrue(institution.isFavorite)
+        assertTrue(institution.name == "Macs")
+        assertTrue(institution.phoneNumber == "513-231-3213")
     }
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175046474852",
+    "project_id": "ranch-ratings",
+    "storage_bucket": "ranch-ratings.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175046474852:android:ea61c1c83259d7ff35f371",
+        "android_client_info": {
+          "package_name": "com.example.ranchratings_11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175046474852-55t76vn2e8v6c6hmn6t0pq3on1n6gu97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCju6dtI-KDBzWN2STbeN3TgkZVYkODegU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175046474852-55t76vn2e8v6c6hmn6t0pq3on1n6gu97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
