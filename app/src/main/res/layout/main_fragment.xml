@@ -17,7 +17,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/lblTopHeading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -28,7 +27,6 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnSearch"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -36,7 +34,6 @@
             android:text="@string/search" />
 
         <Button
-            android:id="@+id/btnProfile"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -45,7 +42,6 @@
     </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
@@ -54,13 +50,13 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
         <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:addStatesFromChildren="false"
             android:apiKey="AIzaSyBPeW5QzkAZ-PA6BGGH4Xa7BmVmBYPaJmE"
             android:clickable="true"
-            android:duplicateParentState="false" />
+            android:duplicateParentState="false"
+            android:focusable="true" />
 
         <fragment
             android:id="@+id/map2"
@@ -73,6 +69,7 @@
             android:id="@+id/btnSubmit"
             android:layout_width="89dp"
             android:layout_height="88dp"
+            android:contentDescription="@string/create_a_new_rating"
             app:srcCompat="@android:drawable/ic_input_add" />
 
     </FrameLayout>
@@ -89,7 +86,6 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
-            android:id="@+id/lblBottomHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"

@@ -5,4 +5,8 @@
     <string name="search">Search</string>
     <string name="profile">Profile</string>
     <string name="bottomHeading">Featured Ranch</string>
+    <string name="enter_review_here">Enter Review Here…</string>
+    <string name="go_back_to_the_main_screen">Go back to the main screen</string>
+    <string name="save_your_rating">Save your rating</string>
+    <string name="create_a_new_rating">Create a New Rating</string>
 </resources>
